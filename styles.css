@@ -34,9 +34,10 @@ span:active{
 #reformatPls{
     position: absolute;
     top: 46%;
-    left: 15%;
+    left: 8%;
     font-size:4vw;
     color: white;
+    text-align: center;
 }
 
 #firstRow, #secondRow, #thirdRow, #fourthRow, #fifthRow{
