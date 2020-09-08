@@ -1,0 +1,135 @@
+span{
+    border: 2px solid rgb(225, 225, 225);
+    border-radius: 10px;
+    line-height: 67px;
+    text-align: center;
+    display: inline-block;
+    height: 70px;
+    font-size: 2vw;
+    margin: auto;
+    font-family: 'font';
+    font-weight: 500;
+    color: white;
+    transition: background-color 70ms linear;
+}
+
+span:hover{
+    color: white;
+    background-color: #00274b;
+}
+
+span:active{
+    color: white;
+    background-color: #ff0010;
+}
+
+#keyboardContainer{
+    margin: auto;
+    position: absolute;
+    left: 0;
+    right: 0;
+    bottom: 0px;
+}
+
+#reformatPls{
+    position: absolute;
+    top: 46%;
+    left: 15%;
+    font-size:4vw;
+    color: white;
+}
+
+#firstRow, #secondRow, #thirdRow, #fourthRow, #fifthRow{
+    padding: 10px;
+    margin: auto;
+}
+
+.squareKey{
+    width: 70px;
+}
+
+#text{
+    /* border-bottom: 2px solid rgb(225, 225, 225); */
+    height: 50px;
+    margin: 0px auto 420px;
+    width: 80%;
+    text-align: center;
+}
+
+#textbox{
+    width: 95%;
+    height: 2em;
+    background-color: #004c94;
+    border: none;
+    font-size: 1.8rem;
+    color: #ff0010;
+    font-family: 'font';
+    border-radius: 0 0 8px 8px;
+    border-top: none;
+    resize: none;
+    padding: 10px;
+    /* padding-bottom: 40px; */
+}
+
+#textbox::-webkit-scrollbar{
+    display: none;
+}
+
+#textbox:focus{
+    outline: none;
+}
+
+.backKey{
+    width: 160px;
+}
+
+.capsKey, .backSlashKey, .tabKey{
+    width: 100px;
+}
+
+.enterKey{
+    width: 130px;
+}
+
+.shiftKey{
+    width: 150px;
+}
+
+.spaceBar{
+    width: 500px;
+    text-align: center;
+    margin: auto;
+}
+
+html, #body{
+    background-color: #004c94;
+}
+
+.selected{
+    background-color: #530027;
+}
+
+.shiftPerm{
+    font-weight: 700;
+    text-decoration: underline;
+}
+
+.click{
+    color: white;
+    background-color: black;
+}
+
+.hover{
+    color: white;
+    background-color: rgb(225, 225, 225);
+}
+
+.keyboard{
+    color: white;
+    background-color: #d4000e;
+}
+
+@font-face{
+    font-family: 'font';
+    src: url(OpenSansCondensed-Light.ttf);
+}

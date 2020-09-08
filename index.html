@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+    <meta name="HandheldFriendly" content="true">
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
+    <script src="scripts.js"></script>
+    <script src="jquery.js"></script>
+    <title>Document</title>
+</head>
+<body id="body">
+    <div id="showOn1200" style="display: initial;">
+        <div id="textHolder">
+            <div class="container">
+                <div id="text">
+                    <textarea type="text" id="textbox" autofocus onblur="this.focus()"></textarea> 
+                </div>
+            </div>
+        </div>
+        <div class="container" id="keyboardContainer">
+            <div id="keyBoard">
+                <div id="firstRow">
+                    <div class="row">
+                        <span class="squareKey typeKey nonLetter">`</span>
+                        <span class="squareKey typeKey nonLetter">1</span>
+                        <span class="squareKey typeKey nonLetter">2</span>
+                        <span class="squareKey typeKey nonLetter">3</span>
+                        <span class="squareKey typeKey nonLetter">4</span>
+                        <span class="squareKey typeKey nonLetter">5</span>
+                        <span class="squareKey typeKey nonLetter">6</span>
+                        <span class="squareKey typeKey nonLetter">7</span>
+                        <span class="squareKey typeKey nonLetter">8</span>
+                        <span class="squareKey typeKey nonLetter">9</span>
+                        <span class="squareKey typeKey nonLetter">0</span>
+                        <span class="squareKey typeKey nonLetter">-</span>
+                        <span class="squareKey typeKey nonLetter">=</span>
+                        <span class="backKey">BACK</span>
+                    </div>
+                </div>
+                <div id="secondRow">
+                    <div class="row">
+                        <span class="tabKey">TAB</span>
+                        <span class="squareKey letter typeKey">q</span>
+                        <span class="squareKey letter typeKey">w</span>
+                        <span class="squareKey letter typeKey">e</span>
+                        <span class="squareKey letter typeKey">r</span>
+                        <span class="squareKey letter typeKey">t</span>
+                        <span class="squareKey letter typeKey">y</span>
+                        <span class="squareKey letter typeKey">u</span>
+                        <span class="squareKey letter typeKey">i</span>
+                        <span class="squareKey letter typeKey">o</span>
+                        <span class="squareKey letter typeKey">p</span>
+                        <span class="squareKey typeKey nonLetter">[</span>
+                        <span class="squareKey typeKey nonLetter">]</span>
+                        <span class="typeKey nonLetter backSlashKey">\</span>
+                    </div>
+                </div>
+                <div id="thirdRow">
+                    <div class="row">
+                        <span class="capsKey">CAPS</span>
+                        <span class="squareKey letter typeKey">a</span>
+                        <span class="squareKey letter typeKey">s</span>
+                        <span class="squareKey letter typeKey">d</span>
+                        <span class="squareKey letter typeKey">f</span>
+                        <span class="squareKey letter typeKey">g</span>
+                        <span class="squareKey letter typeKey">h</span>
+                        <span class="squareKey letter typeKey">j</span>
+                        <span class="squareKey letter typeKey">k</span>
+                        <span class="squareKey letter typeKey">l</span>
+                        <span class="squareKey typeKey nonLetter">;</span>
+                        <span class="squareKey typeKey nonLetter">'</span>
+                        <span class="enterKey">ENTER</span>
+                    </div>
+                </div>
+                <div id="fourthRow">
+                    <div class="row">
+                        <span class="shiftKey">SHIFT</span>
+                        <span class="squareKey letter typeKey">z</span>
+                        <span class="squareKey letter typeKey">x</span>
+                        <span class="squareKey letter typeKey">c</span>
+                        <span class="squareKey letter typeKey">v</span>
+                        <span class="squareKey letter typeKey">b</span>
+                        <span class="squareKey letter typeKey">n</span>
+                        <span class="squareKey letter typeKey">m</span>
+                        <span class="squareKey typeKey nonLetter">,</span>
+                        <span class="squareKey typeKey nonLetter">.</span>
+                        <span class="squareKey typeKey nonLetter">/</span>
+                        <span class="shiftKey">SHIFT</span>
+                    </div>
+                </div>
+                <div id="fifthRow">
+                    <div class="row">
+                        <span class="spaceBar">SPACE</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div id="showOnLessThan1200" style="display: none;">
+        <div class="container">
+            <h1 id="reformatPls">Please resize window to at least 1200px</h1>
+        </div>
+    </div>
+    
+</body>
+</html>
